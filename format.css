@@ -1,0 +1,62 @@
+body{
+	background-image: url(leaf.jpg);
+	background-repeat: no-repeat;
+	background-size: fill;
+}	
+img{
+	width: 100%;	
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+}
+
+#statusDiv {
+	text-align: center;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+}
+#bleId {
+	text-align: center;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+}
+
+/* The content div soround
+  * every thing in the body
+  * The css make content  smaller than the body itself
+  * and centret.
+  */
+#content {
+	width: 75%;
+	margin: auto;
+}
+
+#bleDeviceList{
+	
+}	
+#messageInput{
+	
+}
+#list{
+	background-color: red;
+}
+
+/* width will be 100% of content */
+#refreshButton{
+	width: 100%;
+}
+#sendButton{
+	width: 100%;
+}
+#ledOnButton{
+	width: 100%;
+}
+#ledOffButton{
+	width: 100%;
+}

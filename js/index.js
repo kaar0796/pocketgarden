@@ -54,12 +54,17 @@ function refreshDeviceList(){
 }
 
 
+
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
+	if (device.name == "GREENHOUSE"){
+		
+	
 	var listItem = document.createElement('li'),
     html = device.name+ "," + device.id;
     listItem.innerHTML = html;
     document.getElementById("bleDeviceList").appendChild(listItem);
+	}
 }
 
 
